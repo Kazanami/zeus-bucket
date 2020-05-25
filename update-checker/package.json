@@ -9,5 +9,9 @@
   },
   "keywords": [],
   "author": "Kazanami",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "fs-extra": "^9.0.0",
+    "node-fetch": "^2.6.0"
+  }
 }
