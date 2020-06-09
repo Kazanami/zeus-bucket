@@ -1,0 +1,34 @@
+{
+    "homepage": "https://github.com/Kazanami/nvm-windows",
+    "description": "This is a fork of nvm-windows, added stable nodejs version install mode. ",
+    "license": "MIT",
+    "version": "1.1.7.1",
+    "url": "https://github.com/Kazanami/nvm-windows/releases/download/v1.1.7.1/nvm-noinstall.zip",
+    "bin": "nvm.exe",
+    "persist": [
+        "nodejs",
+        "settings.txt"
+    ],
+    "env_add_path": "nodejs\\nodejs",
+    "env_set": {
+        "NVM_HOME": "$dir",
+        "NVM_SYMLINK": "$persist_dir\\nodejs\\nodejs"
+    },
+    "architecture": {
+        "64bit": {
+            "pre_install": [
+                "if(!(test-path \"$dir\\settings.txt\")) {",
+                "    write-output \"root: $persist_dir\\nodejs`r`narch: 64`r`nproxy: none\" | out-file -encoding \"ASCII\" \"$dir\\settings.txt\"",
+                "}"
+            ]
+        },
+        "32bit": {
+            "pre_install": [
+                "if(!(test-path \"$dir\\settings.txt\")) {",
+                "    write-output \"root: $persist_dir\\nodejs`r`narch: 32`r`nproxy: none\" | out-file -encoding \"ASCII\" \"$dir\\settings.txt\"",
+                "}"
+            ]
+        }
+    },
+    "notes": "You'll need to restart powershell/cmd to have it reload Environment Variables so nvm will work correctly"
+}
