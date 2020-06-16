@@ -1,5 +1,31 @@
 {
-  "homepage": "https://kmiya-culti.github.io/RLogin/",
-  "description": "Remote Terminal Software on Windows",
-  "url": "https://api.github.com/repos/kmiya-culti/RLogin/releases"
+  "homepage": "http://nanno.dip.jp/softlib/man/rlogin/",
+  "version": "2.23.0",
+  "bin": "RLogin.exe",
+  "shortcuts": [
+    ["RLogin.exe", "RLogin"]
+  ],
+  "checkver": {
+    "github": "https://github.com/kmiya-culti/RLogin/"
+  },
+  "architecture": {
+    "64bit": {
+      "url": "http://nanno.dip.jp/softlib/rlogin/2.23.0/rlogin_x64.zip",
+      "hash": ""
+    },
+    "32bit": {
+      "url": "http://nanno.dip.jp/softlib/rlogin/2.23.0/rlogin_x32.zip",
+      "hash": ""
+    }
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "http://nanno.dip.jp/softlib/rlogin/$version/rlogin_x64.zip"
+      },
+      "32bit": {
+        "url": "http://nanno.dip.jp/softlib/rlogin/$version/rlogin_x32.zip"
+      }
+    }
+  }
 }
