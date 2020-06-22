@@ -1,6 +1,6 @@
 {
     "homepage": "http://nanno.dip.jp/softlib/man/rlogin/",
-    "version": "2.25.2",
+    "version": "2.25.3",
     "bin": "RLogin.exe",
     "shortcuts": [
         [
@@ -13,12 +13,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "http://nanno.dip.jp/softlib/rlogin/2.25.2/rlogin_x64.zip",
-            "hash": "30c3784c42b2cb5a8a66557eb4fafd43e52b837405de52a985f6d198f8df95e8"
+            "url": "http://nanno.dip.jp/softlib/rlogin/2.25.3/rlogin_x64.zip",
+            "hash": "abd7ee66c5220cf28dbd0fbbb29fef84121647b9592902c4c8907a8067dd6c9f"
         },
         "32bit": {
-            "url": "http://nanno.dip.jp/softlib/rlogin/2.25.2/rlogin_x32.zip",
-            "hash": "feea51c8ad2cb2803ff5a815687eb38262767c2dd0e63159cf858c3a5567c808"
+            "url": "http://nanno.dip.jp/softlib/rlogin/2.25.3/rlogin_x32.zip",
+            "hash": "059b740edec49cdd675f302582073420374cd9929c4f386ed7ed7ba2445d59ce"
         }
     },
     "autoupdate": {
