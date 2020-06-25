@@ -20,5 +20,7 @@
     },
     "license": "FreeSoftware",
     "description": "TCP Monitor Plus",
-    "persist": "tcpmon_*.ini"
+    "pre_install": [
+	"if(!(Test-Path(\"$dir\\tcpmon_$($env:USERNAME)@$(hostname).ini\"))) { New-Item \"$dir\\tcpmon_$($env:USERNAME)@$(hostname).ini\" -type file | Out-Null }"
+    ]
 }
