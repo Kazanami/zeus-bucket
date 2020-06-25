@@ -17,5 +17,7 @@
     "hash": "1551ed60d6789768304651cb135a1163971ce3877bbf038755956f459251b174",
     "autoupdate": {
         "url": "https://dns-plus.net/download/tcpmon$matchV1$matchV2.zip"
-    }
+    },
+    "license": "FreeSoftware",
+    "description": "TCP Monitor Plus"
 }
