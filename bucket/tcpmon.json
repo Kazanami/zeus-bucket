@@ -1,0 +1,23 @@
+{
+    "homepage": "https://dns-plus.net/",
+    "version": "2.8.0",
+    "bin": "tcpmon.exe",
+    "shortcuts": [
+        [
+            "tcpmon.exe",
+            "tcpmon"
+        ]
+    ],
+    "checkver": {
+        "url": "https://dns-plus.net/",
+        "re":"tcpmon([\\d+?]*).zip"
+    },
+    "architecture": {
+        "url": "https://dns-plus.net/download/tcpmon280.zip"
+    },
+    "autoupdate": {
+      "architecture": {
+        "url": "https://dns-plus.net/download/tcpmon$version.zip"
+      }
+    }
+}
