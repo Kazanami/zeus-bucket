@@ -1,6 +1,6 @@
 {
     "homepage": "https://dns-plus.net/",
-    "version": "2.8.0",
+    "version": "292",
     "bin": "tcpmon.exe",
     "shortcuts": [
         [
@@ -9,15 +9,14 @@
         ]
     ],
     "checkver": {
-        "url": "https://dns-plus.net/",
-        "re":"tcpmon([\\d+?]*).zip"
+        "url": "https://dns-plus.net",
+        "re": "<b class=\"new\">Ver(?<v1>[\\d]+).(?<v2>[\\d]+?)</b>",
+        "replace": "${v1}${v2}"
     },
-    "architecture": {
-        "url": "https://dns-plus.net/download/tcpmon280.zip"
-    },
+    "url": "https://dns-plus.net/download/tcpmon292.zip",
+    "hash": "1551ed60d6789768304651cb135a1163971ce3877bbf038755956f459251b174",
     "autoupdate": {
-      "architecture": {
-        "url": "https://dns-plus.net/download/tcpmon$version.zip"
-      }
+        "url": "https://dns-plus.net/download/tcpmon$matchV1$matchV2.zip",
+        "hash": ""
     }
 }
