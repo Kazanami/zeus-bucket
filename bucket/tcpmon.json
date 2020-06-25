@@ -19,5 +19,6 @@
         "url": "https://dns-plus.net/download/tcpmon$matchV1$matchV2.zip"
     },
     "license": "FreeSoftware",
-    "description": "TCP Monitor Plus"
+    "description": "TCP Monitor Plus",
+    "persist": "tcpmon_*.ini"
 }
