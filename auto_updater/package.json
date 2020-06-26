@@ -1,0 +1,9 @@
+{
+  "name": "pack_list",
+  "version": "0.0.1",
+  "description": "my pack list auto generate",
+  "main": "index.js",
+  "repository": "https://github.com/Kazanami/zeus-bucket.git",
+  "author": "f0rk <dummy.github.1945@gmail.com>",
+  "license": "MIT"
+}
