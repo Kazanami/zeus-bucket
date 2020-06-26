@@ -5,5 +5,9 @@
   "main": "index.js",
   "repository": "https://github.com/Kazanami/zeus-bucket.git",
   "author": "f0rk <dummy.github.1945@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "fs-extra": "^9.0.1",
+    "json2md": "^1.7.0"
+  }
 }
