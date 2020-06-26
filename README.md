@@ -14,4 +14,5 @@
 
 ```
 scoop bucket add kazanami https://github.com/Kazanami/zeus-bucket
+scoop install kazanami/<app name>
 ```
