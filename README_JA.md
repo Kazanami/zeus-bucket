@@ -1,4 +1,6 @@
 # Kazanami オリジナルscoop バケット
+[English](https://github.com/Kazanami/zeus-bucket/blob/master/README.md) |
+**日本語**
 
 いろいろ詰め込んでます。
 
