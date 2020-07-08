@@ -1,5 +1,6 @@
 {
     "homepage": "http://nanno.dip.jp/softlib/man/rlogin/",
+    "description": "Remote Login Tool for Windows",
     "version": "2.25.3",
     "bin": "RLogin.exe",
     "shortcuts": [
