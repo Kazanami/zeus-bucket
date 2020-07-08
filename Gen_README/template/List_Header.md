@@ -1,2 +1,2 @@
-| Package Name | Description  | Version (manifest) |
-|:------------:|:------------:|:------------------:|
+| manifest | Description | Version (manifest) |
+|:--------:|:-----------:|:------------------:|

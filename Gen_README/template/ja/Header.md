@@ -5,3 +5,5 @@
 いろいろ詰め込んでます。
 
 [![GitHub repo size](https://img.shields.io/github/repo-size/kazanami/zeus-bucket?logo=github)](https://github.com/Kazanami/zeus-bucket.git)
+
+# アプリ一覧
