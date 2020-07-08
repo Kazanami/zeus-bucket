@@ -14,3 +14,6 @@ jobs:
         GITH_EMAIL: ${{ secrets.DUMMY_ADDRESS }}
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         SKIP_UPDATED: '1'
+    - name: The job has succeeded
+      if: ${{ success() }} 
+      run: echo "Generating README.md ..."
