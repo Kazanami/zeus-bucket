@@ -8,9 +8,20 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
+      with:
+        fetch-depth: 0
     - name: Excavate
       uses: Ash258/Scoop-GithubActions@stable
       env:
         GITH_EMAIL: ${{ secrets.DUMMY_ADDRESS }}
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         SKIP_UPDATED: '1'
+    - name: Updating README.md
+      env:
+        GITH_EMAIL: ${{ secrets.DUMMY_ADDRESS }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        DEBUG_MODE: '0'
+      run: |
+        sudo apt install jq nkf -y
+        cd ./Gen_README
+        bash ./generate_md.sh
