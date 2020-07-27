@@ -14,7 +14,7 @@ REMOTE_BUCKET="${REMOTE_GIT}/blob/master/bucket"
 LOCAL_WORK=`dirname ${PWD}`
 LOCAL_BUCKET="${LOCAL_WORK}/bucket"
 README_TEMPLATE="${PWD}/template"
-COMMIT_MSG="README: Update something"
+COMMIT_MSG="README: Update README List"
 
 function manifest_check(){
   # git log --pretty=format:%h -2
