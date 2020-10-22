@@ -15,11 +15,11 @@
     "architecture": {
         "64bit": {
             "url": "http://nanno.dip.jp/softlib/rlogin/2.25.5/rlogin_x64.zip",
-            "hash": "a0e5b11f2386c47a1b8860eb9f1406e43b69d652b69ee779ecf3e052638861ba"
+            "hash": ""
         },
         "32bit": {
             "url": "http://nanno.dip.jp/softlib/rlogin/2.25.5/rlogin_x32.zip",
-            "hash": "d24bb1734755b31dc196a38f0ce78a79954dd7abe5a81ea10c4dde120ccf7ebb"
+            "hash": ""
         }
     },
     "autoupdate": {
