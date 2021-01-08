@@ -1,7 +1,7 @@
 {
     "homepage": "http://nanno.dip.jp/softlib/man/rlogin/",
     "description": "Remote Login Tool for Windows",
-    "version": "2.25.6",
+    "version": "2.25.7",
     "bin": "RLogin.exe",
     "shortcuts": [
         [
@@ -14,12 +14,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "http://nanno.dip.jp/softlib/rlogin/2.25.6/rlogin_x64.zip",
-            "hash": "a393b048483c6d715b52d2af61ba7cf08c06bcb25bb947d2b26d4cd11bfb593d"
+            "url": "http://nanno.dip.jp/softlib/rlogin/2.25.7/rlogin_x64.zip",
+            "hash": "d3e402016479f775a1783e98fdec11a4470092e1e4bb363741fc956de1aa5110"
         },
         "32bit": {
-            "url": "http://nanno.dip.jp/softlib/rlogin/2.25.6/rlogin_x32.zip",
-            "hash": "5ebe59d6f5052fce53b62a5708810972dc48baf9fdd53eb03701a3ea49e6e6e3"
+            "url": "http://nanno.dip.jp/softlib/rlogin/2.25.7/rlogin_x32.zip",
+            "hash": "edb9b4076053d206fe9fdfb86a2878aabc49ba092c9f19f0151056fc284928ca"
         }
     },
     "autoupdate": {
