@@ -1,6 +1,6 @@
 {
     "homepage": "https://github.com/mdhiggins/CenterTaskbar",
-    "version": "1.8",
+    "version": "1.91",
     "bin": "CenterTaskbar.exe",
     "shortcuts": [
         [
@@ -11,8 +11,8 @@
     "checkver": {
         "github": "https://github.com/mdhiggins/CenterTaskbar"
     },
-    "url": "https://github.com/mdhiggins/CenterTaskbar/releases/download/1.8/CenterTaskbar.exe",
-    "hash": "89e88f6b674e1093afc6e7e1f4c7673ccf2bb07a47cbc744004f8c412b1013c2",
+    "url": "https://github.com/mdhiggins/CenterTaskbar/releases/download/1.91/CenterTaskbar.exe",
+    "hash": "c4c256231c20845f94ecaab8c9cd89bc351c74f2c1c0f9f78f47b9485bc4cb3e",
     "autoupdate": {
         "url": "https://github.com/mdhiggins/CenterTaskbar/releases/download/$version/CenterTaskbar.exe"
     },
