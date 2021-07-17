@@ -2,7 +2,7 @@
     "homepage": "https://bitbucket.org/neelabo/neeview/wiki/Home",
     "description": "Comic Viewer",
     "license": "MIT",
-    "version": "39.0",
+    "version": "39.3",
     "bin": "NeeLaboratory\\NeeView\\NeeView.exe",
     "shortcuts": [
         [
@@ -16,12 +16,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://bitbucket.org/neelabo/neeview/downloads/NeeView39.0-x64.msi",
-            "hash": "c0db0dd19d1a18e0ab48dbf44ae29eb1746d9f7121b06e9bdcb0024c3ae12644"
+            "url": "https://bitbucket.org/neelabo/neeview/downloads/NeeView39.3-x64.msi",
+            "hash": "16f364e90a5d71d4ed0cb907978729f4f236d65e3b46445858f1c3c5a3cd3a29"
         },
         "32bit": {
-            "url": "https://bitbucket.org/neelabo/neeview/downloads/NeeView39.0-x86.msi",
-            "hash": "9aa437640046b81700a5d948d3412eeca47bd32fa39f7f813452bb7d233f6dcc"
+            "url": "https://bitbucket.org/neelabo/neeview/downloads/NeeView39.3-x86.msi",
+            "hash": "052ae0f30fcc7bccd7cc21fa587ce39d9a4992b608cd2306560bc57743b14a98"
         }
     },
     "autoupdate": {
